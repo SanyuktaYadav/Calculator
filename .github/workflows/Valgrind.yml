@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         gcc main.c -o output.out
-        valgrind chmod ./output.out
+        Valgrind chmod ./output.out
